@@ -1,0 +1,69 @@
+@charset "UTF-8"; 
+
+:root {
+    --cor00: rgba(255, 255, 255, 0.644);
+    --cor01: #210c47;
+    --cor02: rgb(235, 144, 9);
+    --cor03:  #722af7;
+    --cor04:  #1625b1;
+    --font01: 'Arial, Helvetica, sans-serif';
+    --font02: 'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    body {
+        background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    #login > div#imagem {
+        background:gray url(../imagens/img-media.jpg) no-repeat top center;
+        background-size: cover;
+        height: 100%;
+        width: 40%;
+        float: left;
+        
+        
+    }
+
+    #login > div#formulario {
+      width: 60%;
+      float: right;
+      height: 100%;
+      position: relative;
+    }
+
+    #login > div#formulario > p {
+       
+        margin-top: 20px;
+        font-size: 1.2em;
+      }
+
+      #login > div#formulario > h1 {
+        margin-top: 25px;
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (min-width:992px) {
+   
+    body {
+        background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
+    }
+    
+    section#login {
+        width: 990px;
+    }
+
+    section#login > div#imagem {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background: url(../imagens/img-grande.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
