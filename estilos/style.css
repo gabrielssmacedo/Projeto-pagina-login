@@ -49,9 +49,7 @@ section#login {
     background:gray url(../imagens/img-pequena.jpg) no-repeat right center;
     background-size: cover;
     height: 200px;
-    
     display: block;
-    
 }
 
 #login > div#formulario {
